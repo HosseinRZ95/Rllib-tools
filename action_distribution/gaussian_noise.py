@@ -1,4 +1,4 @@
-class TorchGaussian1(TorchDistributionWrapper):
+class Gaussian_noise(TorchDistributionWrapper):
     """Based on Rllib normal distribution
     It's simply like deterministic distribution with adding some random noise
     you can change noise std in __init__"""
